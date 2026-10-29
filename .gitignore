@@ -1,0 +1,38 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Airflow logs and runtime files
+logs/
+airflow/logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+
+# PostgreSQL runtime data
+postgre/data/
+postgres/data/
+
+# Docker volumes and local database files
+**/pgdata/
+*.dump
+*.sql
+*.sqlite
+*.db
